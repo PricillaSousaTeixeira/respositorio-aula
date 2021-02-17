@@ -1,0 +1,32 @@
+body{
+    height: 100vw;
+    background: linear-gradient(rgb(16, 16, 255), skyblue);
+}
+/*.sol{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 200px 200px 80px 0px rgb(219, 153, 10);
+    margin: 10px;
+    
+}*/
+.nuvem{
+    width: 280px;
+    height: 180px;
+  display: inline-block;
+    border-radius: 50%;
+    filter: url(#filter);
+    box-shadow: 200px 200px 50px 0px #fff;
+    margin: 40px;
+}
+ .field-first{
+    margin-bottom: 160px;
+    filter: url(#filter1);
+    width: 180px;
+}
+
+.field-second{
+    margin-bottom: 140px;
+    filter: url(#filter2);
+    width: 140px;
+}
